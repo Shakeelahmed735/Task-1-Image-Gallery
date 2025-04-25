@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Shakeel's Gallery</h1>
+  </header>
+  <section class="gallery">
+    <img src="img1.jpg" alt="Gallery Image 1" onclick="showImage(this)">
+    <img src="img2.jpg" alt="Gallery Image 2" onclick="showImage(this)">
+    <img src="img3.jpg" alt="Gallery Image 3" onclick="showImage(this)">
+    <img src="img4.jpg" alt="Gallery Image 4" onclick="showImage(this)">
+    <img src="img5.jpg" alt="Gallery Image 5" onclick="showImage(this)">
+    <img src="img6.jpg" alt="Gallery Image 6" onclick="showImage(this)">
+  </section>
+
+  <div class="popup" id="popup" onclick="closePopup()">
+    <span class="close">&times;</span>
+    <img id="popup-img" class="popup-img" src="" alt="Popup Image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
